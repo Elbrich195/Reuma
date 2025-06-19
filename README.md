@@ -19,13 +19,13 @@ Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de w
 Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics. (fig…).
 
 ### H2.1 Dataset
-Voor de samples werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie….) een Transcriptomics analyse uitgevoerd 
+Voor de samples werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd 
 
 ### H2.2 Mapping en countmatrix
-De reads werden uitgelijnd tegen een humaan genoomindex (GRCh38.p14) met behulp van RSUBread (versie……..). Hieruit volgen BAM-bestanden waaruit vervolgens de reads worden gemapt met Homo_Sapien.gtf. het aantal reads dat op elk gen valt werd geteld in een countmatrix.
+De reads werden uitgelijnd tegen een humaan genoomindex (GRCh38.p14) met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit vervolgens de reads worden gemapt met Homo_Sapien.gtf. het aantal reads dat op elk gen valt werd geteld in een countmatrix.
 
 ### H2.3 Statistiek
-Voor de statistiek werd een countmatrix verkregen via school. Hiermee werd een differentiele genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie….) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd met behulp van goseq (versie….) en KEGG-pathway analyse met behulp van KEGGREST (vesie…..).
+Voor de statistiek werd een countmatrix verkregen via school. Hiermee werd een differentiele genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd met behulp van goseq (versie 1.60.0) en KEGG-pathway analyse met behulp van KEGGREST (vesie 1.48.0).
 
 ---
 ## H3 Resultaten
@@ -33,6 +33,11 @@ Om te achterhalen welke genen en pathways een rol spelen bij RA, werd de data ge
 
 ### H3.1 Vulcanoplot
 Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bij RA, werd een volcano plot gemaakt. Dit liet zien dat 2085 genen significant opgereguleerd en 2487 genen significant neergereguleerd waren (fig…).
+<p align="left">
+  <img src="resultaten/plot/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
+</p>
+
+*Figuur 3: Volcanoplot van de differentiële genexpressie bij reumapatiënten (N=4) en de controles (N=4).*
 
 ### H3.2 GO-analyse
 Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat de tien meest significante processen vaak te maken hadden met het lumen of het imuunsysteem (fig…).
