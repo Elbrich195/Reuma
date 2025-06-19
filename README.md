@@ -42,7 +42,7 @@ Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bi
 ### H3.2 GO-analyse
 Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat de tien meest significante processen vaak te maken hadden met het lumen of het imuunsysteem (figuur 4).
 <p align="left">
-  <img src="Resultaten/Afbeeldingen/Nullplot.png" alt="GO-enrichmentplot" width="500" height="600"/>
+  <img src="Resultaten/Afbeeldingen/GO_enrichmentplot.png" alt="GO-enrichmentplot" width="600" height="500"/>
 </p>
 
 *Figuur 4: GO-enrichmentplot van de tien GO-termen met laagste p-waarde.*
