@@ -32,18 +32,28 @@ Voor de statistiek werd een countmatrix verkregen via school. Hiermee werd een d
 Om te achterhalen welke genen en pathways een rol spelen bij RA, werd de data geanalyseerd met behulp van een vulcanoplot, GO-enrichment en een pathway analyse.
 
 ### H3.1 Vulcanoplot
-Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bij RA, werd een volcano plot gemaakt. Dit liet zien dat 2085 genen significant opgereguleerd en 2487 genen significant neergereguleerd waren (fig…).
+Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bij RA, werd een volcano plot gemaakt. Dit liet zien dat 2085 genen significant opgereguleerd en 2487 genen significant neergereguleerd waren (figuur 3).
 <p align="left">
-  <img src="resultaten/plot/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
+  <img src="Resultaten/Afbeeldingen/Volcanoplot_Reuma.png" alt="volcano plot" width="500" height="600"/>
 </p>
 
 *Figuur 3: Volcanoplot van de differentiële genexpressie bij reumapatiënten (N=4) en de controles (N=4).*
 
 ### H3.2 GO-analyse
-Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat de tien meest significante processen vaak te maken hadden met het lumen of het imuunsysteem (fig…).
+Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat de tien meest significante processen vaak te maken hadden met het lumen of het imuunsysteem (figuur 4).
+<p align="left">
+  <img src="Resultaten/Afbeeldingen/Nullplot.png" alt="GO-enrichmentplot" width="500" height="600"/>
+</p>
+
+*Figuur 4: GO-enrichmentplot van de tien GO-termen met laagste p-waarde.*
 
 ### H3.3 Pathways
-Om te bepalen welke genen op of neergereguleerd waren bij de RA patienten werden deze vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen, waaronder CD28 en CTL A4, waren opgereguleerd (fig….).
+Om te bepalen welke genen op of neergereguleerd waren bij de RA patienten werden deze vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen, waaronder CD28 en CTL A4, waren opgereguleerd (figuur 5).
+<p align="left">
+  <img src="Resultaten/Afbeeldingen/hsa05323.pathview.png" alt="GO-enrichmentplot" width="700" height="500"/>
+</p>
+
+*Figuur 5: Pathways en genen betrokken bij Reumatoïde Artritis. Waarbij opgereguleerde genen rood gekleurd en neergerugeleerde genen groen gekleurd zijn.*
 
 ---
 ## H4 Conclusie
