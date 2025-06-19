@@ -5,7 +5,7 @@
 
 Door: Elbrich Bouma
 
-Klas:BML2-C
+Klas:LBM2-C
 
 ---
 ## Inhoud
