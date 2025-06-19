@@ -45,7 +45,7 @@ Om een overzicht te krijgen van welke biologische processen significant betrokke
   <img src="Resultaten/Afbeeldingen/GO_enrichmentplot.png" alt="GO-enrichmentplot" width="600" height="500"/>
 </p>
 
-*Figuur 4: GO-enrichmentplot van de tien GO-termen met laagste p-waarde.*
+*Figuur 4: GO-enrichmentplot van de tien GO-termen met de laagste p-waarden.*
 
 ### H3.3 Pathways
 Om te bepalen welke genen op of neergereguleerd waren bij de RA patienten werden deze vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen, waaronder CD28 en CTL A4, waren opgereguleerd (figuur 5).
