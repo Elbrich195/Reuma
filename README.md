@@ -12,11 +12,11 @@ Klas:LBM2-C
 
 ---
 ## H1 Inleiding
-Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de wereldbevolking die die leidt tot langdurige gewrichtsontstekingen en aantasting van meerdere organen ([Kochi et al., 2014](Bronnen/Kochi_Y_2014.pdf)). RA is een erfelijke aandoening waarbij ongeveer 60% genetisch bepaald is, 30% hiervan wordt veroorzaakt door het HLA-DRB1 gen. Vooral veranderingen in ‘shared epitopes’, een belangrijk gebied binnen MHC klasse II-genen, heeft effect hierop ([Shakeel et al., 2025](Bronnen/Shakeel_L_2025.pdf)). Een ander gen sterk betrokken bij RA dat niet op het HLA regio ligt is PTPN22. Dit gen verminderd de signalen van B- en T-cell reptoren ([Kochi et al., 2014](Bronnen/Kochi_Y_2014.pdf)). Het 1858t variant is een goede voorspellende marker voor de ontwikkeling van RA, vooral in combinatie met anti-citrullinated protein antibodies (ACPAs) ([Johansson et al., 2005](Bronnen/Johansson_M_2005.pdf)). Hoewel deze genen veel betrokken zijn bij RA, is er nog niet een duidelijke oorzaak voor RA. Er zijn veel verschillende genen die invloed hebben op het ontwikkelen van RA. Het doel van dit onderzoek is het vinden van genen en pathways betrokken bij RA m.b.v. transcriptomics.
+Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de wereldbevolking die die leidt tot langdurige gewrichtsontstekingen en aantasting van meerdere organen ([Kochi et al., 2014](Bronnen/Kochi_Y_2014.pdf)). RA is een erfelijke aandoening waarbij ongeveer 60% genetisch bepaald is, 30% hiervan wordt veroorzaakt door het HLA-DRB1 gen. Vooral veranderingen in ‘shared epitopes’, een belangrijk gebied binnen MHC klasse II-genen, heeft effect hierop ([Shakeel et al., 2025](Bronnen/Shakeel_L_2025.pdf)). Een ander gen sterk betrokken bij RA dat niet op het HLA regio ligt is PTPN22. Dit gen verminderd de signalen van B- en T-cell reptoren ([Kochi et al., 2014](Bronnen/Kochi_Y_2014.pdf)). De 1858t variant is een goede voorspellende marker voor de ontwikkeling van RA, vooral in combinatie met anti-citrullinated protein antibodies (ACPAs) ([Johansson et al., 2005](Bronnen/Johansson_M_2005.pdf)). Hoewel deze genen veel betrokken zijn bij RA, is er nog niet een duidelijke oorzaak voor RA. Er zijn veel verschillende genen die invloed hebben op het ontwikkelen van RA. Het doel van dit onderzoek is het identificeren van genen betrokken bij RA m.b.v. transcriptomics data-analyse in R. Met als deelvraag: welke biologische pathways zijn betrokken bij de genetische factoren van RA?
 
 ---
 ## H2 Methode
-Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics. (figuur 2).
+Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in R. (figuur 2).
 
 INSERT STROOMSCHEMA!
 
@@ -26,10 +26,10 @@ INSERT STROOMSCHEMA!
 Voor de samples werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd 
 
 ### H2.2 Mapping en countmatrix
-De reads werden uitgelijnd tegen een humaan genoomindex (GRCh38.p14) met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit vervolgens de reads worden gemapt met Homo_Sapien.gtf. het aantal reads dat op elk gen valt werd geteld in een countmatrix.
+De reads werden uitgelijnd tegen een humaan genoomindex (GRCh38.p14) met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit vervolgens de reads werden gemapt met Homo_Sapien.gtf. Het aantal reads dat op elk gen valt werd geteld in een countmatrix.
 
 ### H2.3 Statistiek
-Voor de statistiek werd een countmatrix verkregen via school. Hiermee werd een differentiele genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd met behulp van goseq (versie 1.60.0) en KEGG-pathway analyse met behulp van KEGGREST (vesie 1.48.0).
+Voor de statistiek werd een countmatrix verkregen via school. Hiermee werd een differentiële genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd met behulp van goseq (versie 1.60.0) en een KEGG-pathway analyse met behulp van KEGGREST (versie 1.48.0).
 
 ---
 ## H3 Resultaten
