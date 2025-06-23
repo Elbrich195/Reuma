@@ -5,10 +5,17 @@
 
 Door: Elbrich Bouma
 
-Klas:LBM2-C
+Klas: LBM2-C
 
 ---
-## Inhoud
+## Inhoud/Structuur
+- `Assets/` - overige documenten en afbeeldingen voor de opmaak van deze pagina
+- `Bronnen/` - gebruikte bronnen voor het onderzoek
+- `Data_stewardship/` - document met het belang van data stewardship
+- `Data/` – de data gebruikt in dit onderzoek
+- `Data/BAM-files` - verwerkte datasets als BAM-files gegenereerd met het R-script
+- `Resultaten/` - grafieken en tabellen gegenereed met het R-script
+
 
 ---
 ## H1 Inleiding
