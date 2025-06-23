@@ -16,7 +16,7 @@ Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de w
 
 ---
 ## H2 Methode
-Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in R. (figuur 2).
+Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in ([R](Data/Project Transcriptomics.R)). (figuur 2).
 
 INSERT STROOMSCHEMA!
 
