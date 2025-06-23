@@ -46,7 +46,7 @@ Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bi
 ### H3.2 GO-analyse
 Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat het proces met de meest significante expressieverandering betrekking heeft op het intracellulaire anatomische structuur (p = 3.78* 10-25)  (figuur 4).
 <p align="left">
-  <img src="Resultaten/Afbeeldingen/GO_enrichmentplot.png" alt="GO-enrichmentplot" width="600" height="500"/>
+  <img src="Resultaten/GO_enrichmentplot.png" alt="GO-enrichmentplot" width="600" height="500"/>
 </p>
 
 *Figuur 4: Go-enrichmentplot van de tien GO-termen met laagste gecorrigeerde p-waarden (Padj <0.05).*
@@ -54,11 +54,16 @@ Om een overzicht te krijgen van welke biologische processen significant betrokke
 ### H3.3 Versterkt Th1-activiteit en verzwakt Th17-activiteit
 Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen kenmerkend voor Th1-cellen, zoals CD28, IFN-γ en T-bet, significant waren opgereguleerd, wat duidt op een verhoogde Th1-celrespons (fig…). Hoewel IL6 bij Th17-cellen was opgereguleerd, waren belangrijke eiwitten zoals TGF-β, IL23 en IL-17 juist neergereguleerd (fig…). Dit wijst op verminderde activiteit in Th17-cellen (figuur 5).
 <p align="left">
-  <img src="Resultaten/Afbeeldingen/hsa05323.pathview.png" alt="GO-enrichmentplot" width="700" height="500"/>
+  <img src="Resultaten/hsa05323.pathview.png" alt="Rheamtoid Arthritis pathway, KEGG: hsa05323" width="700" height="500"/>
 </p>
 
-*Figuur 5: Pathways en genen betrokken bij Reumatoïde Artritis. Waarbij opgereguleerde genen rood gekleurd en neergerugeleerde genen groen gekleurd zijn.*
+*Figuur 5: Pathways en genen betrokken bij Reumatoïde Artritis (KEGG: hsa05323) gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
 
+<p align="left">
+  <img src="Resultaten/hsa04658.pathview.png" alt="Th1 en Th2 differentiatie pathway, KEGG: hsa0658" width="700" height="500"/>
+</p>
+*Figuur 6: Pathways en genen betrokken bij de differentiatie van Th1 en Th2 cellen (KEGG: hsa04658), gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
+  
 *Tabel 1: De functie en verandering in expressie van verschillende proteïnes.*
 | Proteïne | Regulatie   | Functie                                                                                                                             | Bron  |
 |----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|-------|
