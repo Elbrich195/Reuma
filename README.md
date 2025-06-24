@@ -84,10 +84,10 @@ Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleke
 | TGF-β    | ▼ neer      | Stimuleert de differentiatie van CD4 T-cellen tot Treg cellen, die ontstekingen onderdrukken.                                       | ([Grebenciucova & VanHaerents, 2023](Bronnen/Grebenciucova_&_VanHaerents_2023.pdf))     |
 | IL-6     | ▲ op        | Blokkeert TGF-β en stimuleert de differentiatie van CD4 T-cellen tot Th17 cellen. Th17 cellen stimuleren ontstekingen.              | ([Grebenciucova & VanHaerents, 2023](Bronnen/Grebenciucova_&_VanHaerents_2023.pdf))     |
 | IL-23    | ▼ neer      | Bevordert de overleving en vermeerdering van Th17 cellen en stimuleert de productie van cytokines zoals IL17 en IL22.               | ([García-Domínguez, 2025](Bronnen/García-Domínguez_2025.pdf))     |
-| IL-17    | ▼ neer      | Stimuleert ontstekingsmediatoren zoals cytokines, chemokines en antimicrobiële peptiden en bevordert de activatie van neutrofielen. | ([Majumder & McGeachy, 2021](Bronnen/Majumder_&_McGeachy_2021))     |
-| CD28     | ▲ op        | Co-stimulerend eiwit die helpt bij T-celactivatie en IL-2 en IFN-γ productie versterkt.                                             | ([Porciello & Tuosto, 2016](Bronnen/Porciello_&_Tuosto_2016)) ([Haack, et al., 2021](Bronnen/Haack_S_2021))   |
-| IFN-γ    | ▲ op        | Activeert het STAT1 signaal wat leidt tot opregulatie van T-bet                                                                     | ([Sun, et al., 2023](Bronnen/Sun_L_2023))     |
-| T-bet    | ▲ op        | Belangrijk eiwit voor Th1 differentiatie en onderdrukt Th2 en Th17. Het stimuleert en versterkt de productie van IFN-γ.             | ([Sun, et al., 2023](Bronnen/Sun_L_2023))     |
+| IL-17    | ▼ neer      | Stimuleert ontstekingsmediatoren zoals cytokines, chemokines en antimicrobiële peptiden en bevordert de activatie van neutrofielen. | ([Majumder & McGeachy, 2021](Bronnen/Majumder_&_McGeachy_2021.pdf))     |
+| CD28     | ▲ op        | Co-stimulerend eiwit die helpt bij T-celactivatie en IL-2 en IFN-γ productie versterkt.                                             | ([Porciello & Tuosto, 2016](Bronnen/Porciello_&_Tuosto_2016.pdf)) ([Haack, et al., 2021](Bronnen/Haack_S_2021.pdf))   |
+| IFN-γ    | ▲ op        | Activeert het STAT1 signaal wat leidt tot opregulatie van T-bet                                                                     | ([Sun, et al., 2023](Bronnen/Sun_L_2023.pdf))     |
+| T-bet    | ▲ op        | Belangrijk eiwit voor Th1 differentiatie en onderdrukt Th2 en Th17. Het stimuleert en versterkt de productie van IFN-γ.             | ([Sun, et al., 2023](Bronnen/Sun_L_2023.pdf))     |
 
 ---
 ## H4 Conclusie
