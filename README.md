@@ -39,10 +39,10 @@ Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt 
 Voor de [samples](Data/samples.md) werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd. 
 
 ### H2.2 Mapping en countmatrix
-Er werd een genoomindex ontworpen gebaseerd op humaan genoom uit het SRA database (GRCH38.p14) en de reads werden hier tegen uitgelijnd met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit de reads werden gemapt met een humaan GTF-annotatiebestand (GRCh38.p14). Het aantal reads dat op elk gen valt werd geteld in een countmatrix.
+Er werd een genoomindex ontworpen gebaseerd op humaan genoom uit het SRA database (GRCH38.p14) en de reads werden hier tegen uitgelijnd met behulp van RSUBread (versie 2.22.1) ([Liao, et al., 2013](Bronnen/Liao_Y_2013.pdf)) . Hieruit volgen [BAM-bestanden](Data/BAM-files/) waaruit de reads werden gemapt met een humaan GTF-annotatiebestand (GRCh38.p14). Het aantal reads dat op elk gen valt werd geteld in een [countmatrix](count_matrix.txt).
 
 ### H2.3 Statistiek
-Met behulp van de countmatrix werd een differentiële genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd m.b.v. goseq (versie 1.60.0) en een KEGG-pathway analyse m.b.v. KEGGREST (versie 1.48.0).
+Met behulp van de [countmatrix](count_matrix.txt) werd een differentiële genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) ([Love, et al., 2014](Bronnen/Love_M_I_2014.pdf)) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd m.b.v. goseq (versie 1.60.0) ([Young, et al., 2010](Bronnen/Young_M_D_2010.pdf)) en een KEGG-pathway analyse m.b.v. KEGGREST (versie 1.48.0) ([Guan, et al., 2024](Bronnen/Guan_Y_2024.pdf)).
 
 ---
 ## H3 Resultaten
