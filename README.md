@@ -2,9 +2,12 @@
 <p align="center">
   <img src="Assets/Reuma.jpg" alt="png van gewrichtsschade" width="600"/>
 </p>
-*bron: https://www.umcutrecht.nl/nl/ziekte/reuma*
 
-Door: Elbrich Bouma
+<p align="center">
+  <em>bron: <a href="https://www.umcutrecht.nl/nl/ziekte/reuma">UMC Utrecht - Reuma</a></em>
+</p>
+
+<br> Door: Elbrich Bouma
 
 Klas: LBM2-C
 
