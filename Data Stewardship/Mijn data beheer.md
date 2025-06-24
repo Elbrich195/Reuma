@@ -1,0 +1,9 @@
+# Mijn data beheer
+
+Om de data van dit onderzoek goed te beheren is gebruik gemaakt van deze GitHub pagina. De data is goed gesorteerd in een duidelijke mappenstructuur, uitgelegd in README.md. Hierin staan alle gebruikte data, de resultaten en gebruikte bronnen en afbeeldingen. De bijbehorende informatie van de samples uit het onderzoek staan in samples.md. Hierin staat het geslacht, de leeftijd en de aanwezigheid van RA. Om de gegevens van de personen te beschermen zijn namen vervangen door nummers.
+
+De data-analyse is gedaan met behulp van R. Het volledige script staat in de GitHub-repository, zodat deze gebruikt kan worden om de analyse te reproduceren of verder uit te breiden door andere onderzoekers. Het R-script maakt gebruik van comments met hierin de functie van de code, hierdoor is het eenvoudig voor andere onderzoekers om aanpassingen te maken of nieuwe data toe te voegen.
+
+Het onderzoek zelf is beschreven in README.md, hierin wordt kort het doel van het onderzoek, de gebruikte methode, de belangrijkste resultaten en de conclusie besproken. In de tekst wordt verwezen naar bronnen en data gebruikt voor het onderzoek. Deze zijn gelinkt met de volledige bron of dataset op in de GitHub-repository, waardoor deze eenvoudig te vinden zijn. De humane genoomsequentie en annotatiebestanden waren te groot om direct in deze GitHub-repository te plaatsen. In plaats daarvan is duidelijk omschreven waar deze bestanden kunnen worden gedownload, inclusief het versienummer, zodat ook deze gegevens eenvoudig terug te vinden zijn. 
+
+Het gebruiken van GitHub zorgt dat data eenvoudig kan worden terug gevonden en maakt versiebeheer mogelijk. Alle eerder gemaakte versies worden door GitHub opgeslagen. Hierdoor zijn aanpassingen traceerbaar en kan bij eventueel gemaakte fouten eenvoudig een vorige versie hersteld worden.   
