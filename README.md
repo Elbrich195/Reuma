@@ -1,4 +1,4 @@
-# Transcriptomics
+# Genexpressie-analyse wijst op Th1-dominantie in langdurige reumatoïde artritis
 <p align="center">
   <img src="Assets/Reuma.jpg" alt="png van gewrichtsschade" width="600"/>
 </p>
