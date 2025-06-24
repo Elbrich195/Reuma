@@ -2,6 +2,7 @@
 <p align="center">
   <img src="Assets/Reuma.jpg" alt="png van gewrichtsschade" width="600"/>
 </p>
+*bron: https://www.umcutrecht.nl/nl/ziekte/reuma*
 
 Door: Elbrich Bouma
 
@@ -23,13 +24,13 @@ Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de w
 
 ---
 ## H2 Methode
-Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in [R](Data/Project Transcriptomics.R). (figuur 2).
+Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in [R](Data/Project Transcriptomics.R). (figuur 1).
 
 <p align="left">
   <img src="Assets/Flowchart data-analyse in R.png" alt="Stroomschema van de data-analyse in R" width="800" height="500"/>
 </p>
 
-*Figuur 2: Stroomschema van de dataverwerking in R.*
+*Figuur 1: Stroomschema van de dataverwerking in R, gemaakt met behulp van Biorender.*
 
 ### H2.1 Dataset
 Voor de [samples](Data/samples.md) werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd. 
@@ -45,34 +46,34 @@ Met behulp van de countmatrix werd een differentiële genexpressie-analyse uitge
 Om te achterhalen welke genen en pathways een rol spelen bij RA, werd de data geanalyseerd met behulp van een vulcanoplot, GO-enrichment en een pathway analyse.
 
 ### H3.1 Vulcanoplot
-Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bij RA, werd een volcano plot gemaakt. Hieruit bleek dat 2085 genen significant waren opgereguleerd en 2487 genen significant neergereguleerd (figuur 3).
+Om inzicht te krijgen in de genen die significant op- of neergereguleerd zijn bij RA, werd een volcano plot gemaakt. Hieruit bleek dat 2085 genen significant waren opgereguleerd en 2487 genen significant neergereguleerd (figuur 2).
 <p align="left">
   <img src="Resultaten/Volcanoplot_Reuma.png" alt="volcano plot" width="500" height="600"/>
 </p>
 
-*Figuur 3: Volcanoplot van de differentiële genexpressie bij reumapatiënten (N=4) en de controles (N=4).*
+*Figuur 2: Volcanoplot van de differentiële genexpressie bij reumapatiënten (N=4) en de controles (N=4).*
 
 ### H3.2 GO-analyse
-Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat het proces met de meest significante expressieverandering betrekking heeft op het intracellulaire anatomische structuur (p = 3.78* 10-25)  (figuur 4).
+Om een overzicht te krijgen van welke biologische processen significant betrokken zijn bij RA, werd een GO-analyse uitgevoerd. Hieruit bleek dat het proces met de meest significante expressieverandering betrekking heeft op het intracellulaire anatomische structuur (p = 3.78* 10-25)  (figuur 3).
 <p align="left">
   <img src="Resultaten/GO_enrichmentplot.png" alt="GO-enrichmentplot" width="600" height="500"/>
 </p>
 
-*Figuur 4: Go-enrichmentplot van de tien GO-termen met laagste gecorrigeerde p-waarden (Padj <0.05).*
+*Figuur 3: Go-enrichmentplot van de tien GO-termen met laagste gecorrigeerde p-waarden (Padj <0.05).*
 
 ### H3.3 Versterkt Th1-activiteit en verzwakt Th17-activiteit
-Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen kenmerkend voor Th1-cellen, zoals CD28, IFN-γ en T-bet, significant waren opgereguleerd, wat duidt op een verhoogde Th1-celrespons (figuur 5/6). Hoewel IL6 bij Th17-cellen was opgereguleerd, waren belangrijke eiwitten zoals TGF-β, IL23 en IL-17 juist neergereguleerd (figuur 5). Dit wijst op verminderde activiteit in Th17-cellen.
+Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen kenmerkend voor Th1-cellen, zoals CD28, IFN-γ en T-bet, significant waren opgereguleerd, wat duidt op een verhoogde Th1-celrespons (figuur 4/5). Hoewel IL6 bij Th17-cellen was opgereguleerd, waren belangrijke eiwitten zoals TGF-β, IL23 en IL-17 juist neergereguleerd (figuur 4). Dit wijst op verminderde activiteit in Th17-cellen.
 <p align="left">
   <img src="Resultaten/hsa05323.pathview.png" alt="Rheamtoid Arthritis pathway, KEGG: hsa05323" width="700" height="500"/>
 </p>
 
-*Figuur 5: Pathways en genen betrokken bij Reumatoïde Artritis (KEGG: hsa05323) gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
+*Figuur 4: Pathways en genen betrokken bij Reumatoïde Artritis (KEGG: hsa05323) gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
 
 <p align="left">
   <img src="Resultaten/hsa04658.pathview.png" alt="Th1 en Th2 differentiatie pathway, KEGG: hsa0658" width="700" height="500"/>
 </p>
 
-*Figuur 6: Pathways en genen betrokken bij de differentiatie van Th1 en Th2 cellen (KEGG: hsa04658), gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
+*Figuur 5: Pathways en genen betrokken bij de differentiatie van Th1 en Th2 cellen (KEGG: hsa04658), gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
   
 *Tabel 1: De functie en verandering in expressie van verschillende proteïnes.*
 | Proteïne | Regulatie   | Functie                                                                                                                             | Bron      |
