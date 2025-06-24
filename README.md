@@ -15,10 +15,12 @@ Klas: LBM2-C
 ## Inhoud/Structuur
 - `Assets/` - overige documenten en afbeeldingen voor de opmaak van deze pagina
 - `Bronnen/` - gebruikte bronnen voor het onderzoek
-- `Data_stewardship/` - document met het belang van data stewardship
+- `Data Stewardship/Data stewardship` - document met het belang van data stewardship
+- `Data Stewardship/Mijn data beheer` - hoe met deze GitHub pagina gebruik is gemaakt van data stewardship
 - `Data/` – de data gebruikt in dit onderzoek
 - `Data/BAM-files` - verwerkte datasets als BAM-files gegenereerd met het R-script
 - `Resultaten/` - grafieken en tabellen gegenereed met het R-script
+- `Scripts/` - R-scripts gebruikt voor de data-analyse
 
 
 ---
@@ -27,7 +29,7 @@ Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de w
 
 ---
 ## H2 Methode
-Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in [R](Scripts/Transcriptomics%data-analyse%RA.R). (figuur 1).
+Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in [R](Scripts/Transcriptomics_data-analyse_RA.R). (figuur 1).
 
 <p align="left">
   <img src="Assets/Flowchart data-analyse in R.png" alt="Stroomschema van de data-analyse in R" width="800" height="500"/>
