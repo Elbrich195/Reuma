@@ -23,7 +23,7 @@ Reumatoïde artritis (RA) is een auto-immuunziekte gevonden in 0.5-1.0% van de w
 
 ---
 ## H2 Methode
-Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in ([R](Data/Project Transcriptomics.R)). (figuur 2).
+Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt van transcriptomics in [R](Data/Project Transcriptomics.R). (figuur 2).
 
 <p align="left">
   <img src="Assets/Flowchart data-analyse in R.png" alt="Stroomschema van de data-analyse in R" width="800" height="500"/>
@@ -32,10 +32,10 @@ Om de genen en pathways betrokken bij RA te identificeren, werd gebruik gemaakt 
 *Figuur 2: Stroomschema van de dataverwerking in R.*
 
 ### H2.1 Dataset
-Voor de samples werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd 
+Voor de [samples](Data/samples.md) werden 4 synoviumbiopten van RA-patiënten (diagnose >12 maanden, ACPA-positief) en 4 van controles (ACPA-negatief) gesequenced. Hierna werd met R (versie 4.5.1) een Transcriptomics analyse uitgevoerd. 
 
 ### H2.2 Mapping en countmatrix
-Er werd een genoomindex ontworpen gebaseerd op humaan genoom GRCH38.p14 en de reads werden hier tegen uitgelijnd met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit de reads werden gemapt met een humaan GTF-annotatiebestand. Het aantal reads dat op elk gen valt werd geteld in een countmatrix.
+Er werd een genoomindex ontworpen gebaseerd op humaan genoom uit het SRA database (GRCH38.p14) en de reads werden hier tegen uitgelijnd met behulp van RSUBread (versie 2.22.1). Hieruit volgen BAM-bestanden waaruit de reads werden gemapt met een [humaan GTF-annotatiebestand](Data/Human annotation.zip). Het aantal reads dat op elk gen valt werd geteld in een countmatrix.
 
 ### H2.3 Statistiek
 Met behulp van de countmatrix werd een differentiële genexpressie-analyse uitgevoerd met behulp van DESeq2 (versie 1.48.1) en gevisualiseerd met een vulcanoplot. Verder werd een GO-enrichmentanalyse uitgevoerd m.b.v. goseq (versie 1.60.0) en een KEGG-pathway analyse m.b.v. KEGGREST (versie 1.48.0).
@@ -71,11 +71,12 @@ Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleke
 <p align="left">
   <img src="Resultaten/hsa04658.pathview.png" alt="Th1 en Th2 differentiatie pathway, KEGG: hsa0658" width="700" height="500"/>
 </p>
+
 *Figuur 6: Pathways en genen betrokken bij de differentiatie van Th1 en Th2 cellen (KEGG: hsa04658), gebaseerd op de log2Fold change van de genen met een gecorrigeerde p-waarde <0.05. Waarbij opgereguleerde genen groen gekleurd en neergerugeleerde genen rood gekleurd zijn.*
   
 *Tabel 1: De functie en verandering in expressie van verschillende proteïnes.*
-| Proteïne | Regulatie   | Functie                                                                                                                             | Bron  |
-|----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|-------|
+| Proteïne | Regulatie   | Functie                                                                                                                             | Bron      |
+|----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | TGF-β    | ▼ neer      | Stimuleert de differentiatie van CD4 T-cellen tot Treg cellen, die ontstekingen onderdrukken.                                       | ([Grebenciucova & VanHaerents, 2023](Bronnen/Grebenciucova_&_VanHaerents_2023.pdf))     |
 | IL-6     | ▲ op        | Blokkeert TGF-β en stimuleert de differentiatie van CD4 T-cellen tot Th17 cellen. Th17 cellen stimuleren ontstekingen.              | ([Grebenciucova & VanHaerents, 2023](Bronnen/Grebenciucova_&_VanHaerents_2023.pdf))     |
 | IL-23    | ▼ neer      | Bevordert de overleving en vermeerdering van Th17 cellen en stimuleert de productie van cytokines zoals IL17 en IL22.               | ([García-Domínguez, 2025](Bronnen/García-Domínguez_2025.pdf))     |
