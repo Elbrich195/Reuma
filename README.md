@@ -61,7 +61,7 @@ Om een overzicht te krijgen van welke biologische processen significant betrokke
 *Figuur 4: Go-enrichmentplot van de tien GO-termen met laagste gecorrigeerde p-waarden (Padj <0.05).*
 
 ### H3.3 Versterkt Th1-activiteit en verzwakt Th17-activiteit
-Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen kenmerkend voor Th1-cellen, zoals CD28, IFN-γ en T-bet, significant waren opgereguleerd, wat duidt op een verhoogde Th1-celrespons (fig…). Hoewel IL6 bij Th17-cellen was opgereguleerd, waren belangrijke eiwitten zoals TGF-β, IL23 en IL-17 juist neergereguleerd (fig…). Dit wijst op verminderde activiteit in Th17-cellen (figuur 5).
+Om de genexpressie bij RA-patiënten te analyseren, werden de gegevens vergeleken met het Rheumatoid Arthritis-pathway. Hierbij bleek dat meerdere genen kenmerkend voor Th1-cellen, zoals CD28, IFN-γ en T-bet, significant waren opgereguleerd, wat duidt op een verhoogde Th1-celrespons (figuur 5/6). Hoewel IL6 bij Th17-cellen was opgereguleerd, waren belangrijke eiwitten zoals TGF-β, IL23 en IL-17 juist neergereguleerd (figuur 5). Dit wijst op verminderde activiteit in Th17-cellen.
 <p align="left">
   <img src="Resultaten/hsa05323.pathview.png" alt="Rheamtoid Arthritis pathway, KEGG: hsa05323" width="700" height="500"/>
 </p>
